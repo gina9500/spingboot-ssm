@@ -1,0 +1,17 @@
+server:
+  port: 9090
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/j59
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+
+  mvc:
+    view:
+      suffix: .jsp
+
+mybatis:
+  type-aliases-package: java.util
+  mapper-locations: mapper/*Mapper.xml
